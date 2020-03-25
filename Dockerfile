@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt-get update && apt-get install -y python pyhton-pip
+RUN yum update && yum install -y python pyhton-pip
 
 RUN pip install flask
 
